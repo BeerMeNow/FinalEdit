@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/pbeer_of_the_week" android:state_selected="true"/>
+    <item android:drawable="@drawable/pbeer_of_the_week" android:state_pressed="true"/>
+
+    <item android:drawable="@drawable/beer_of_the_week"/>
+
+</selector>

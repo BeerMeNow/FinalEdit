@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:id="@+id/title_text"
+        android:textSize="19dp"
+        android:layout_gravity="top|left" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="ABV"
+    android:id="@+id/favABV"
+    android:textSize="12dp"
+    android:layout_toRightOf="@+id/favABV"
+    android:layout_gravity="top|left" />
+    <!--<ImageView-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:id="@+id/imageView1"-->
+        <!--android:layout_gravity="right|center_vertical" />-->
+    <Button
+    android:layout_width="20dp"
+    android:layout_height="17dp"
+    android:background="@drawable/pressed_trash"
+    android:id="@+id/deleteMe"
+    android:layout_gravity="right|top"
+
+    android:width="@dimen/abc_action_button_min_width_material"
+    android:layout_weight="0.05" />
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="10dp"-->
+    <!--android:weightSum="1">-->
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Large Text"-->
+        <!--android:id="@+id/title_text"-->
+        <!--android:textSize="19dp"-->
+        <!--android:layout_gravity="top|left" />-->
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="ABV"-->
+        <!--android:id="@+id/favABV"-->
+        <!--android:textSize="12dp"-->
+        <!--android:layout_toRightOf="@+id/favABV"-->
+        <!--android:layout_gravity="top|left" />-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:id="@+id/imageView1"-->
+        <!--android:layout_gravity="right|center_vertical" />-->
+
+
+    <!--<Button-->
+        <!--android:layout_width="20dp"-->
+        <!--android:layout_height="17dp"-->
+        <!--android:background="@drawable/pressed_trash"-->
+        <!--android:id="@+id/deleteMe"-->
+        <!--android:layout_gravity="right"-->
+
+        <!--android:width="@dimen/abc_action_button_min_width_material"-->
+        <!--android:layout_weight="0.05" />-->
+
+
+<!--</LinearLayout>-->
